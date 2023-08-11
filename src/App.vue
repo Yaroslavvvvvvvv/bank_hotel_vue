@@ -1,12 +1,13 @@
 <template>
-<div class="">
-  Hello World
-</div>
+  <my-header/>
 </template>
 
 <script>
+import MyHeader from "@/components/MyHeader.vue";
+
 export default {
-  name: "App"
+  name: "App",
+  components: {MyHeader}
 }
 </script>
 

@@ -1,0 +1,35 @@
+<template>
+  <div class="my_header">
+    <b-navbar toggleable="lg" class="my_nav">
+      <b-navbar-brand href="#" class="my_logo">BankHotel</b-navbar-brand>
+
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="#">Home</b-nav-item>
+          <b-nav-item href="#">About</b-nav-item>
+          <b-nav-item href="#">Rooms</b-nav-item>
+          <b-nav-item href="#">Restaurant</b-nav-item>
+          <b-nav-item href="#">Conference hall</b-nav-item>
+          <b-nav-item href="#">Contacts</b-nav-item>
+        </b-navbar-nav>
+
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item class="my_number" href="#">+38 032 297 50 20</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "MyHeader"
+}
+</script>
+
+<style scoped lang="scss">
+@import "src/assets/styles/header";
+</style>

@@ -1,0 +1,37 @@
+$background: var(--primary-color, #313F38);
+$menu: var(--white, #FFFCF6);
+
+.my_header {
+  background: $background;
+
+  .my_logo {
+    color: $menu;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .my_logo:hover {
+    color: #74777a;
+    transition: .5s;
+  }
+
+  .nav-link {
+    color: $menu !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 0.875rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    text-transform: uppercase !important;
+  }
+
+  .nav-link:hover {
+    color: #74777a !important;
+    transition: .5s !important;
+  }
+}
+
