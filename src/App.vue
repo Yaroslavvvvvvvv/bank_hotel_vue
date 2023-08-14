@@ -1,13 +1,17 @@
 <template>
-  <my-header/>
+  <div>
+    <my-header/>
+    <first-section/>
+  </div>
 </template>
 
 <script>
 import MyHeader from "@/components/MyHeader.vue";
+import FirstSection from "@/components/FirstSection.vue";
 
 export default {
   name: "App",
-  components: {MyHeader}
+  components: {FirstSection, MyHeader}
 }
 </script>
 

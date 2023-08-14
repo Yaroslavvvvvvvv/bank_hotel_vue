@@ -1,0 +1,101 @@
+@import "./variables";
+
+.first_section {
+  background: $background;
+
+  h1 {
+    margin-top: -500px;
+    margin-left: 20px;
+    color: $yellow;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+  }
+
+  p {
+    margin-top: 200px;
+    margin-left: 20px;
+    color: $yellow;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  button {
+    margin-top: -50px;
+    margin-left: 990px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: $yellow;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  button:hover {
+    background-color: #dea918;
+    transition: .5s;
+  }
+
+  @media (max-width: 1199.98px) {
+    h1 {
+      margin-top: -400px;
+    }
+    p {
+      margin-top: 130px;
+    }
+    button {
+      margin-top: -80px;
+      margin-left: 810px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    h1 {
+      margin-top: -300px;
+      font-size: 3rem;
+      line-height: 40px;
+    }
+    button {
+      margin-top: -90px;
+      margin-left: 600px;
+      width: 70px;
+      height: 70px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    h1 {
+      margin-top: -230px;
+      margin-left: 10px;
+    }
+    p {
+      margin-top: 60px;
+      margin-left: 10px;
+    }
+    button {
+      margin-top: -70px;
+      margin-left: 430px;
+    }
+  }
+  @media (max-width: 575.98px) {
+    h1 {
+      margin-top: -150px;
+    }
+    p {
+      margin-top: 10px;
+    }
+    button {
+      margin-top: -40px;
+      margin-left: 265px;
+    }
+  }
+}

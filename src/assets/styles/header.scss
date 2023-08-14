@@ -1,5 +1,4 @@
-$background: var(--primary-color, #313F38);
-$menu: var(--white, #FFFCF6);
+@import "./variables";
 
 .my_header {
   background: $background;
