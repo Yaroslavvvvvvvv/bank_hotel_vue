@@ -48,6 +48,22 @@
           </div>
         </div>
       </div>
+      <div class="room_navigation">
+        <span class="find_room row d-flex">Find a room</span>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <b-dropdown size="lg" text="Check in" variant="outline-secondary" class="m-2 check">
+            <b-dropdown-item href="#">Action</b-dropdown-item>
+            <b-dropdown-item href="#">Another action</b-dropdown-item>
+            <b-dropdown-item href="#">Something else here</b-dropdown-item>
+          </b-dropdown>
+          <b-dropdown size="lg" text="Check out" variant="outline-secondary" class="m-2 check">
+            <b-dropdown-item href="#">Action</b-dropdown-item>
+            <b-dropdown-item href="#">Another action</b-dropdown-item>
+            <b-dropdown-item href="#">Something else here</b-dropdown-item>
+          </b-dropdown>
+          <b-button size="lg" pill>book room</b-button>
+        </div>
+      </div>
     </div>
   </section>
 </template>
