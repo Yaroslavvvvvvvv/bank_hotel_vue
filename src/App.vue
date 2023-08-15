@@ -4,6 +4,7 @@
     <first-section/>
     <second-section/>
     <third-section/>
+    <my-footer/>
   </div>
 </template>
 
@@ -12,10 +13,11 @@ import MyHeader from "@/components/MyHeader.vue";
 import FirstSection from "@/components/FirstSection.vue";
 import SecondSection from "@/components/SecondSection.vue";
 import ThirdSection from "@/components/ThirdSection.vue";
+import MyFooter from "@/components/MyFooter.vue";
 
 export default {
   name: "App",
-  components: {ThirdSection, SecondSection, FirstSection, MyHeader}
+  components: {MyFooter, ThirdSection, SecondSection, FirstSection, MyHeader}
 }
 </script>
 
