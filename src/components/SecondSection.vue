@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="d-flex align-items-center">
-            <img src="../assets/img/second_section/star.svg" alt="star" class="mw-100">
+            <img src="../assets/img/room/second_section/star.svg" alt="star" class="mw-100">
             <span class="star">since 1973</span>
           </div>
           <h2>All suites have a unique design<br>because we want our every guest<br>to feel special.</h2>
@@ -21,7 +21,7 @@
             make your stay cozy and delightful.</p>
         </div>
         <div class="second_image">
-          <img src="../assets/img/second_section/second_room.png" alt="room" class="mw-100">
+          <img src="../assets/img/room/second_section/second_room.png" alt="room" class="mw-100">
         </div>
       </div>
     </div>
@@ -35,6 +35,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "src/assets/styles/second_section";
+@import "src/assets/styles/room_styles/second_section";
 
 </style>

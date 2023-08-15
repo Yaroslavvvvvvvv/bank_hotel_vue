@@ -1,0 +1,107 @@
+@import "../variables";
+
+.third_section {
+  background: $menu;
+  padding-top: 50px;
+
+  .label {
+    margin-top: -550px;
+    margin-left: 400px;
+  }
+
+  h4 {
+    margin-top: 50px;
+    color: $text;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.0652rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+  }
+
+  .third_text {
+    margin-top: 50px;
+    color: $small_text;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  @media (max-width: 1199.98px) {
+    .label {
+      margin-top: -450px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .label {
+      margin-top: -330px;
+      margin-left: 300px;
+    }
+    .third_text {
+      br {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 767.98px) {
+    .label {
+      margin-top: -240px;
+      margin-left: 200px;
+    }
+  }
+  @media (max-width: 575.98px) {
+    .label {
+      margin-top: -550px;
+      margin-left: 400px;
+    }
+    .third_text {
+      br {
+        display: flex;
+      }
+
+      font-size: .9rem;
+    }
+  }
+
+  .third_button {
+    margin-top: -100px;
+    border-radius: 50px;
+    width: 171px;
+    height: 50px;
+  }
+
+  .third_number {
+    text-decoration: none;
+    color: $small_text;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+  }
+
+  .third_location {
+    text-decoration: none;
+    color: $small_text;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  @media (max-width: 767.98px) {
+    .third_number {
+      font-size: 1.7rem;
+    }
+  }
+  @media (max-width: 575.98px) {
+    .third_button{
+      margin-top: 50px;
+    }
+  }
+}
