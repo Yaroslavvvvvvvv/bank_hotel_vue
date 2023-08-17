@@ -60,12 +60,16 @@
         </div>
       </div>
     </div>
+    <restaurant-second/>
   </section>
 </template>
 
 <script>
+import RestaurantSecond from "@/components/RestaurantSecond.vue";
+
 export default {
-  name: "MyRestaurant"
+  name: "MyRestaurant",
+  components: {RestaurantSecond}
 }
 </script>
 

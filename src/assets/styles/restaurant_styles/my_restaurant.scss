@@ -180,7 +180,27 @@
     letter-spacing: 1.08px;
     text-transform: capitalize;
   }
-  .right_text{
-   
+
+  .right_text {
+    margin-top: 50px;
+    color: $menu;
+    font-family: 'Raleway', sans-serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  @media (max-width: 1199.98px) {
+    .right_text {
+      br {
+        display: inline-block;
+      }
+    }
+  }
+  @media (max-width: 575.98px) {
+    .right_text{
+      font-size: .8rem;
+    }
   }
 }
