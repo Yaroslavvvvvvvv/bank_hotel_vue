@@ -1,50 +1,138 @@
 @import "../variables";
-
-.restaurant_second {
+.last_component {
   background: $background;
 
-  p {
-    margin-top: 100px;
-    color: $menu;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.635rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-  }
+  .restaurant_second {
+    background: $background;
 
-  span {
-    color: $menu;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px;
-  }
-
-  @media (max-width: 1199.98px) {
-    span {
-      font-size: 3.3rem;
-    }
-  }
-  @media (max-width: 991.98px) {
-    span {
-      font-size: 2.4rem;
-    }
-  }
-  @media (max-width: 767.98px) {
     p {
-      font-size: 2rem;
+      margin-top: 100px;
+      color: $menu;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.635rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
     }
-    span{
+
+    span {
+      color: $menu;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
       font-size: 3.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 60px;
+    }
+
+    @media (max-width: 1199.98px) {
+      span {
+        font-size: 3.3rem;
+      }
+    }
+    @media (max-width: 991.98px) {
+      span {
+        font-size: 2.4rem;
+      }
+    }
+    @media (max-width: 767.98px) {
+      p {
+        font-size: 2rem;
+      }
+      span {
+        font-size: 3.75rem;
+      }
+    }
+    @media (max-width: 575.98px) {
+      span {
+        font-size: 2.5rem;
+      }
     }
   }
-  @media (max-width: 575.98px) {
-    span{
-      font-size: 2.5rem;
+
+  .second_restaurant {
+    background: $background;
+    padding-bottom: 200px;
+
+    .get_in {
+      color: $menu;
+      font-family: 'Raleway', sans-serif;
+      font-size: 9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150px;
+      text-transform: uppercase;
+    }
+
+    .restaurant_logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .touch {
+      color: $yellow;
+      font-family: 'Raleway', sans-serif;
+      font-size: 9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150px;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 1199.98px) {
+      .get_in {
+        font-size: 7rem;
+      }
+      .touch {
+        font-size: 7rem;
+      }
+    }
+    @media (max-width: 991.98px) {
+      .get_in {
+        font-size: 5rem;
+      }
+      .touch {
+        font-size: 5rem;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .get_in {
+        font-size: 3rem;
+      }
+      .touch {
+        font-size: 3rem;
+      }
+    }
+    @media (max-width: 575.98px) {
+      .get_in {
+        font-size: 5rem;
+      }
+      .touch {
+        font-size: 5rem;
+      }
+    }
+  }
+
+  .restaurant_navigation {
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+    .find_room {
+      color: $menu;
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 575.98px) {
+      .find_room {
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
 }

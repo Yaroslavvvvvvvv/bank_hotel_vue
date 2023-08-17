@@ -63,13 +63,15 @@
     <restaurant-second/>
   </section>
 </template>
-
 <script>
+
+
+
 import RestaurantSecond from "@/components/RestaurantSecond.vue";
 
 export default {
   name: "MyRestaurant",
-  components: {RestaurantSecond}
+  components: {RestaurantSecond},
 }
 </script>
 

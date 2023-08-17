@@ -16,10 +16,10 @@ import MyFooter from "@/components/MyFooter.vue";
 
 export default {
   name: "App",
-  components: {MyFooter, MyHeader}
+  components: { MyFooter, MyHeader}
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>
