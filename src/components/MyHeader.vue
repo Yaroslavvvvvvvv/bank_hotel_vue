@@ -10,7 +10,7 @@
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item href="#">About</b-nav-item>
           <b-nav-item to="/rooms">Rooms</b-nav-item>
-          <b-nav-item href="#">Restaurant</b-nav-item>
+          <b-nav-item to="/restaurant">Restaurant</b-nav-item>
           <b-nav-item href="#">Conference hall</b-nav-item>
           <b-nav-item href="#">Contacts</b-nav-item>
         </b-navbar-nav>
