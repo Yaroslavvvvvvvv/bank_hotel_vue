@@ -1,15 +1,19 @@
 <template>
-  <home-first/>
+  <div>
+    <home-first/>
+    <conference-hall/>
+  </div>
 </template>
 
 <script>
 
 
 import HomeFirst from "@/components/HomeFirst.vue";
+import ConferenceHall from "@/components/ConferenceHall.vue";
 
 export default {
   name: "MyHome",
-  components: {HomeFirst},
+  components: {ConferenceHall, HomeFirst},
 }
 </script>
 

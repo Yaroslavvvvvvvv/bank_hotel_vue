@@ -2,6 +2,7 @@
 
 .home_first {
   background: $background;
+  padding-bottom:50px;
 
   h1 {
     color: $menu;
@@ -90,6 +91,73 @@
     }
     .hotel_header {
       font-size: 4.7rem;
+    }
+  }
+
+  .first_dropdown {
+    margin-top: -970px;
+    margin-left: 680px;
+  }
+
+  .second_dropdown {
+    margin-top: -970px;
+  }
+
+  .button_dropdown {
+    margin-top: -970px;
+  }
+
+  @media (max-width: 1199.98px) {
+    .first_dropdown {
+      margin-top: -825px;
+      margin-left: 500px;
+    }
+    .second_dropdown {
+      margin-top: -875px;
+      margin-left: 630px;
+    }
+    .button_dropdown {
+      margin-top: -920px;
+      margin-left: 780px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .first_dropdown {
+      margin-top: -631px;
+      margin-left: 270px;
+    }
+    .second_dropdown {
+      margin-top: -680px;
+      margin-left: 400px;
+    }
+    .button_dropdown {
+      margin-top: -730px;
+      margin-left: 550px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .first_dropdown {
+      margin-top: -491px;
+      margin-left: 100px;
+    }
+    .second_dropdown {
+      margin-top: -540px;
+      margin-left: 230px;
+    }
+    .button_dropdown {
+      margin-top: -590px;
+      margin-left: 370px;
+    }
+  }
+  @media (max-width: 575.98px) {
+    .first_dropdown {
+      display: none;
+    }
+    .second_dropdown {
+     display: none;
+    }
+    .button_dropdown {
+      display: none;
     }
   }
 }
