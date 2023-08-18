@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import MyRoom from "@/components/MyRoom.vue";
 import MyRestaurant from "@/components/MyRestaurant.vue";
+import MyHome from "@/components/MyHome.vue";
+
 
 Vue.use(Router);
 
@@ -11,14 +13,17 @@ let router = new Router({
             path: '/rooms',
             name: 'rooms',
             component: MyRoom,
-            props: true
         },
         {
             path: '/restaurant',
             name: 'restaurant',
             component: MyRestaurant,
-            props: true
-        }
+        },
+        {
+            path: '/',
+            name: 'home',
+            component: MyHome,
+        },
     ]
 })
 

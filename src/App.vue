@@ -11,12 +11,13 @@
 
 
 
+
 import MyHeader from "@/components/MyHeader.vue";
 import MyFooter from "@/components/MyFooter.vue";
 
 export default {
   name: "App",
-  components: { MyFooter, MyHeader}
+  components: { MyFooter, MyHeader},
 }
 </script>
 

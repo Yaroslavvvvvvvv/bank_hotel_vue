@@ -1,0 +1,95 @@
+@import "../variables";
+
+.home_first {
+  background: $background;
+
+  h1 {
+    color: $menu;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .hotel_header {
+    color: $yellow;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .home_star {
+    width: 50px;
+    height: 50px;
+  }
+
+  .since {
+    color: $menu;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .right_text {
+    margin-top: 150px;
+    color: $menu;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .left_text {
+    margin-top: 40px;
+    color: $yellow;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 1199.98px) {
+    h1 {
+      font-size: 7.5rem;
+    }
+    .hotel_header {
+      font-size: 7.5rem;
+    }
+  }
+  @media (max-width: 991.98px) {
+    h1 {
+      font-size: 5.5rem;
+    }
+    .hotel_header {
+      font-size: 5.5rem;
+    }
+  }
+  @media (max-width: 767.98px) {
+    h1 {
+      font-size: 7rem;
+    }
+    .hotel_header {
+      font-size: 7rem;
+    }
+    .right_text {
+      margin-top: 50px;
+    }
+  }
+  @media (max-width: 575.98px) {
+    h1 {
+      font-size: 4.7rem;
+    }
+    .hotel_header {
+      font-size: 4.7rem;
+    }
+  }
+}
