@@ -12,7 +12,7 @@
           <b-nav-item to="/rooms">Rooms</b-nav-item>
           <b-nav-item to="/restaurant">Restaurant</b-nav-item>
           <b-nav-item to="/hall">Conference hall</b-nav-item>
-          <b-nav-item href="#">Contacts</b-nav-item>
+          <b-nav-item href="#" @click="scrollToFooter">Contacts</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -28,6 +28,14 @@
 
 export default {
   name: "MyHeader",
+  methods: {
+    scrollToFooter() {
+      const footer = document.getElementById('my-footer');
+      if (footer) {
+        footer.scrollIntoView({ behavior: 'smooth' }); 
+      }
+    }
+  }
 }
 </script>
 
