@@ -11,7 +11,7 @@
           <b-nav-item href="#">About</b-nav-item>
           <b-nav-item to="/rooms">Rooms</b-nav-item>
           <b-nav-item to="/restaurant">Restaurant</b-nav-item>
-          <b-nav-item href="#">Conference hall</b-nav-item>
+          <b-nav-item to="/hall">Conference hall</b-nav-item>
           <b-nav-item href="#">Contacts</b-nav-item>
         </b-navbar-nav>
 
@@ -25,8 +25,9 @@
 </template>
 
 <script>
+
 export default {
-  name: "MyHeader"
+  name: "MyHeader",
 }
 </script>
 

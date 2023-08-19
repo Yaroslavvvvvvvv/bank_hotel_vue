@@ -14,11 +14,12 @@
     "core-js": "^3.8.3",
     "popper.js": "v1.16.1",
     "portal-vue": "v2.1.7",
+    "sass": "^1.64.2",
+    "sass-loader": "^13.3.2",
     "vue": "^2.7.14",
     "vue-router": "^2.8.1",
-    "vuejs-paginate-next": "^1.0.2",
-    "sass": "^1.64.2",
-    "sass-loader": "^13.3.2"
+    "vue-scrollto": "^2.20.0",
+    "vuejs-paginate-next": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

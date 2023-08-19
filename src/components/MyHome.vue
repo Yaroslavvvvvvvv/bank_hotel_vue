@@ -1,7 +1,7 @@
 <template>
   <div>
     <home-first/>
-    <conference-hall/>
+    <best-apartments/>
   </div>
 </template>
 
@@ -9,11 +9,11 @@
 
 
 import HomeFirst from "@/components/HomeFirst.vue";
-import ConferenceHall from "@/components/ConferenceHall.vue";
+import BestApartments from "@/components/BestApartments.vue";
 
 export default {
   name: "MyHome",
-  components: {ConferenceHall, HomeFirst},
+  components: {BestApartments, HomeFirst},
 }
 </script>
 
