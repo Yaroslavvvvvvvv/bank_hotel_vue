@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer ref="footer">
     <div class="container">
       <hr class="colored_line">
       <div class="row">

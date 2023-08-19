@@ -4,6 +4,7 @@ import MyRoom from "@/components/MyRoom.vue";
 import MyRestaurant from "@/components/MyRestaurant.vue";
 import MyHome from "@/components/MyHome.vue";
 import ConferenceHall from "@/components/ConferenceHall.vue";
+import MyAbout from "@/components/MyAbout.vue";
 
 
 Vue.use(Router);
@@ -29,7 +30,12 @@ let router = new Router({
             path: '/hall',
             name: 'hall',
             component: ConferenceHall,
-        }
+        },
+        {
+            path: '/about',
+            name: 'about',
+            component: MyAbout,
+        },
     ]
 })
 
